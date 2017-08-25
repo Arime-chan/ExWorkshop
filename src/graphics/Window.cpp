@@ -17,9 +17,11 @@ namespace exw
             m_Window = SDL_CreateWindow(m_Title, m_X, m_Y, m_Width, m_Height, SDL_WINDOW_SHOWN);
             if (m_Window == NULL)
             {
-
+                std::cout << "Window->init() -> SDL_CreateWindow(const char* int, int, int, int, Uint32) failed: " << SDL_GetError() << std::endl;
+                return false;
             }
             m_Surface = SDL_GetWindowSurface(m_Window);
+
             // continue init;
 
 
