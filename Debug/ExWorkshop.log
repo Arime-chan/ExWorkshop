@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall exw::graphics::Window::Window(void)" (??0Window@graphics@exw@@QAE@XZ) referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall exw::graphics::Window::~Window(void)" (??1Window@graphics@exw@@QAE@XZ) referenced in function _SDL_main
+D:\AllVCPj\ExWorkshop\Debug\ExWorkshop.exe : fatal error LNK1120: 2 unresolved externals
