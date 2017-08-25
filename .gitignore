@@ -1,8 +1,6 @@
-*.exe
-*.obj
-*.idb
-*.pdb
-*.log
-*.tlog
-*.lasstbuildstate
-
+bin\
+*.dll
+main.cpp
+.gitignore
+*.vcxproj
+*.vcxproj.*
